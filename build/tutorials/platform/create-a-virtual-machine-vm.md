@@ -557,7 +557,7 @@ func (vm *VM) ParseBlock(bytes []byte) (snowman.Block, error) {
 
 #### CreateHandlers
 
-Registed handlers defined in `Service`. See [below](#api) for more on APIs.
+CreateHandlers registers the handlers defined in `Service`. See [below](#api) for more on APIs.
 
 ```go
 // CreateHandlers returns a map where:
@@ -578,7 +578,7 @@ func (vm *VM) CreateHandlers() map[string]*common.HTTPHandler {
 
 #### CreateStaticHandlers
 
-Registers static handlers defined in `StaticService`. See [below](#static-api) for more on static APIs.
+CreateStaticHandlers registers static handlers defined in `StaticService`. See [below](#static-api) for more on static APIs.
 
 ```go
 // CreateStaticHandlers returns a map where:
