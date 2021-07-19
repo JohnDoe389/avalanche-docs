@@ -617,7 +617,7 @@ For each API method, there is:
 
 - A struct that defines the method’s arguments
 - A struct that defines the method’s return values
-- A method that implements the API method, and is parameterized on the above 2 structs
+- A method that implements the API method and is parameterized on the above 2 structs
 
 This API method encodes a string to its byte representation using a given encoding scheme. It can be used to encode data that is then put in a block and proposed as the next block for this chain.
 
